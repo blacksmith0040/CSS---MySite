@@ -58,6 +58,7 @@ hr {
     position: relative;
     background-color: #e0ebe8;
     padding-top: 3.5%;
+    width: 100%;
 }
 
 .container #middle {
@@ -65,11 +66,13 @@ hr {
     padding-bottom: 100px;
     position: relative;
     background-color: #f8e7d5;
+    width: 100%;
 }
 
 .container #bottom {
     background-color: #66BFBF;
     padding-top: 15px;
+    width: 100%;
 }
 
 /* CONTAINER CSS ENDS */
