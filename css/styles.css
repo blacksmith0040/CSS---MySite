@@ -1,0 +1,252 @@
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap");
+
+/* HTML ELEMENTS CSS STARTS */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+    color: #545454;
+    background-color: #e0ebe8;
+    font-size: 14px;
+    line-height: 1.54;
+}
+
+h2,
+h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #45b29a;
+}
+
+hr {
+    background-color: inherit;
+    border-color: #e1d4ec;
+    border-style: dotted none none none;
+    border-width: 7px;
+    width: 7%;
+    margin: auto;
+}
+/* HTML ELEMENTS CSS ENDS */
+
+
+#top-cloud {
+    position: relative;
+    display: block;
+    left: 70%;
+}
+
+#bottom-cloud {
+    position: relative;
+    display: block;
+    left: 15%;
+}
+
+#mountain {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 600px;
+    height: 355px;
+}
+
+/* CONTAINER CSS STARTS */
+.container {
+    background-color: #FFFFFF;
+}
+
+.container #top {
+    position: relative;
+    background-color: #e0ebe8;
+    padding-top: 3.5%;
+}
+
+.container #middle {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #f8e7d5;
+}
+
+.container #bottom {
+    background-color: #66BFBF;
+    padding-top: 15px;
+}
+
+/* CONTAINER CSS ENDS */
+
+/* TOP-CONTAINER ITEMS CSS STARTS */
+#im-Alperen {
+    margin: auto;
+    font-family: "Sacramento", cursive;
+    font-size: 100px;
+    color: #45b29a;
+}
+
+#software-developer {
+    margin: auto;
+    padding: 1em 0;
+    color: #45b29a;
+    font-size: 200%;
+}
+
+/* TOP-CONTAINER ITEMS CSS ENDS */
+
+/* MIDDLE-CONTAINER ITEMS CSS STARTS */
+#coding-guy {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+}
+
+#Hi {
+    color: #45b29a;
+    font-size: 200%;
+    margin: 1em 0 0.5em 0;
+}
+
+#about-me {
+    font-size: 125%;
+    padding-bottom: 10em;
+}
+
+#whaticando {
+    color: #45b29a;
+    font-size: 250%;
+    padding-bottom: 150px;
+    padding-top: 5em;
+}
+
+/* MIDDLE-CONTAINER ITEMS CSS ENDS */
+
+/* BOTTOM-CONTAINER ITEMS CSS STARTS */
+.firmware-dev #cpu-image {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 6%;
+    bottom: 7em;
+}
+
+.firmware-dev #icando1-topic {
+    display: inline;
+    position: relative;
+    font-size: 175%;
+    bottom: 250px;
+    left: 270px;
+}
+
+.firmware-dev #icando1-explanation {
+    display: inline-block;
+    position: relative;
+    font-size: 125%;
+    bottom: 160px;
+    right: 150px;
+    text-align: justify;
+}
+
+.code-review {
+    padding-top: 120px;
+    padding-left: 60px;
+}
+
+.code-review #code-image {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: 40%;
+    bottom: 120px;
+}
+
+.code-review #icando2-topic {
+    display: inline;
+    position: relative;
+    font-size: 175%;
+    right: 17%;
+    bottom: 270px;
+}
+
+.code-review #icando2-explanation {
+    display: inline-block;
+    position: relative;
+    bottom: 160px;
+    right: 485px;
+    text-align: justify;
+    font-size: 125%;
+}
+
+/* BOTTOM-CONTAINER ITEMS CSS ENDS */
+
+/* FINAL-CONTAINER ITEMS' CSS STARTS */
+
+#availability {
+    color: #45b29a;
+    font-size: 200%;
+    margin: auto;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+#ifyou {
+    color: #545454;
+    font-size: 125%;
+    margin: 0 auto;
+    position: relative;
+    right: 230px;
+}
+
+ul {
+    text-align: justify;
+   
+    padding-left: 525px;
+    font-size: 125%;
+    padding-bottom: 3em;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+}
+
+.footer-link {
+    color: #11999e;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    margin: 2em;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.footer-link:hover {
+    color: #FFFFFF;
+}
+
+.copyright {
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    font-size: 90%;
+}
+
+/* FINAL-CONTAINER ITEMS' CSS ENDS */
